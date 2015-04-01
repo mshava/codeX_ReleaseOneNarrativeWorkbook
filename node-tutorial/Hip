@@ -1,0 +1,9 @@
+var fs = require ('fs');
+var location = fs.readdirSync('./Hip hop/');
+console.log(location);
+
+location.forEach(function(files){
+var readfiles = fs.readFileSync('./Hip hop/'+ files,'utf8');
+console.log(readfiles.split('\n'));
+
+});

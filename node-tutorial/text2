@@ -1,0 +1,5 @@
+var words = [ 'One', 'day', 'I', 'went', 'to', 'the', 'aquarium'];
+
+words.forEach(function(word){
+console.log(word);
+});

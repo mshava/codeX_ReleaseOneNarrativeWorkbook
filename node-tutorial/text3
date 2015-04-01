@@ -1,0 +1,8 @@
+
+var words = [ 'One', 'day', 'I', 'went', 'to', 'the', 'aquarium'];
+
+
+var shortWords = words.filter(function(word){
+   return word.length <= 3;
+});
+console.log(shortWords);

@@ -21,6 +21,6 @@ var users = [];
 
  users.push({ first_name : 'Neil', last_name :'Bradshaw' });
 for (var i = 0; i < users.length; i++){
-console.log('Hi, '+ users[i].first_name + ' ' + users[i].last_name + '!' );
+console.log('Hi,'+ users[i].first_name + ' ' + users[i].last_name + '!' );
 	};
 

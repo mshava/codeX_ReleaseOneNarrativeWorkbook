@@ -1,0 +1,11 @@
+var TextAnimation = require ("../lib");
+
+// Animate bottom-top
+TextAnimation("Code-X...", function (err){
+	if (err) throw err;
+// And then , top-bottom;
+TextAnimation({
+text:"...is Cool!"
+, animation: "top-bottom"
+});
+});
